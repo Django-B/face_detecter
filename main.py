@@ -7,6 +7,7 @@ def detect_face():
     # cascade_path = '/home/django/code/camera_ai/filters/haarcascade_eye.xml'
     # cascade_path = '/home/django/code/camera_ai/filters/haarcascade_smile.xml'
     # cascade_path = '/home/django/code/camera_ai/filters/haarcascade_upperbody.xml'
+    # cascade_path = '/home/django/code/camera_ai/filters/haarcascade_frontalcatface.xml'
     clf = cv2.CascadeClassifier(cascade_path)
     
     camera = cv2.VideoCapture(0)
